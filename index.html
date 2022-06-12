@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h1><span id="tip-word">Tip Calculator</h1></span> 
+    <div id="calculator">
+        <form>
+           <span class="sty"> Enter Your Bill Amount: </span> <br>
+           <input type="number" id="bill-amount" placeholder="Rs."><br>
+            <span  class="sty">How was The Service ?</span><br>
+            <select name="service" id="Ser">
+                <option value="20">Excellent - 20%</option>
+                <option value="10">Medium - 10%</option>
+                <option value="5">Not So Good - 5%</option>
+            </select><br><br><br>
+        </form>
+        
+        <div class="sty" > How Many People Are Sharing The Bill ?</div>
+        <input type="number" id="people" placeholder="Enter No. Of People"></br>
+        <button id="calculate">Calculate</button><br><br>
+        <div class="sty , cen" >Tip Amount:</div>
+        <input id="tip-amount" disabled>
+        <input id="total" disabled>
+       
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

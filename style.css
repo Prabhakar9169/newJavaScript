@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(240, 195, 241);
+}
+h1 {
+    color: rgb(136, 10, 10);
+    font-size: 50px;
+    text-align:center;
+
+}
+
+span#tip-word {
+    display: inline-block;
+    width: 700px;
+    color:rgb(230, 230, 10);
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+
+div#calculator{
+    color: rgb(17, 12, 15);
+    font-size: 35px;
+    width: 600px;
+    background-color: rgb(208, 218, 202);
+    padding: 40px;
+   margin-left: 410px;
+}
+.sty{
+    font-size: 25px;
+}
+.cen{
+    text-align: center;
+}
+
+input {
+    margin-right: 50px;
+    width: 300px;
+    height: 30px;
+   
+    
+}
+
+#Ser  {
+    margin-right: 50px;
+    width: 300px;
+    height: 40px;
+    
+  
+}
+
+#calculate{
+    background-color: rgb(236, 46, 46);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    margin: 45px 200px 15px 200px;
+   
+}
+
+#tip-amount{
+    display: none;
+}
+
+#total{
+    margin-left: 150px;
+    border: none;
+}
